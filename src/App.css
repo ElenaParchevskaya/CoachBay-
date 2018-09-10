@@ -29,7 +29,6 @@
 
 
 .search {
-  width: 25%;
   position: relative;
 }
 
@@ -93,4 +92,26 @@
 ** Chrome и Safari можно было стилизовать инпуты */
 input[type="search"] {
   -webkit-appearance: none;
+}
+
+.stops{
+  
+  text-align: left;
+  margin-left: 35px;
+}
+
+.coachBaySearch {
+  width: 25%;
+}
+.information {
+  width: 75%;
+}
+
+.coachBaySearch .stops a {
+  display: block;
+}
+
+.columns {
+  display: inline-block;
+  vertical-align: top;
 }
